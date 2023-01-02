@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+        .green{
+            color: green;
+        }
+        .yl-bg{
+            background-color: yellow;
+        }
+        p, h4{
+            /* common bg for p, h4 */
+            color: blueviolet;
+        }
+        .hot{
+            color: red;
+        }
+        li.hot{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h3 class="mango">Mixed selectors</h3>
+    <p class="mango">CSS = <span class="green">Cascading Style Sheet</span></p>
+    <p class="hot">Purpose make website colorful</p>
+    <p>I am exploring CSS</p>
+    <p class="mango">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eaque rerum! Mollitia alias minus vel ratione sed, nulla dignissimos assumenda qui iusto! Iusto culpa velit temporibus modi labore aliquam repudiandae!</p>
+    <p id="putin">putin tin tin tin</p>
+    <p>bama bama o bama</p>
+    <p id="trump">tum tum tum donald trump</p>
+    <h3>Different ways to apply styles</h3>
+    <h4>More heading</h4>
+    <!-- this is a div. -->
+    <div class="yl-bg">
+        <h3>this is my blog</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis temporibus, atque quia amet rem molestiae aliquam? Itaque incidunt illum voluptates quia sint blanditiis perspiciatis? Ab cupiditate quos amet architecto ullam.
+
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur minima possimus pariatur quia. Perspiciatis ab debitis cum animi tenetur consequatur fugit, beatae cupiditate velit obcaecati qui ad. Voluptates, adipisci quasi?
+        </p>
+    </div>
+    <p>
+        <ol>
+            <li class="hot">Inline style</li>
+            <li><span class="green">Embedded</span>/Internal style</li>
+            <li>External style</li>
+        </ol>
+    </p>
+</body>
+</html>

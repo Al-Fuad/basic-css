@@ -1,0 +1,30 @@
+h3{
+    color: magenta;
+    text-decoration: underline wavy green;
+}
+p{
+    color: blueviolet;
+}
+.header{
+    color: rgb(255, 255, 255);
+    height: 100px;
+    background-image: url(/style/pexels-photo-1591061.webp);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    background-color: rgb(139, 139, 139);
+    background-blend-mode: multiply;
+}
+.page-title{
+    font-weight: 1700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ol li{
+    display: inline;
+}
+.blog{
+    border: 1px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px;
+}
